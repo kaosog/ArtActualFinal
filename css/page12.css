@@ -1,0 +1,190 @@
+#sourceBack{
+    position: absolute;
+    height: 560px;
+    width: 560px;
+    top: 10px;
+    left: 10px;
+    z-index: 0;
+}
+#sourcesH1{
+    position: absolute;
+    height: 0px;
+    width: 560px;
+    top: 20px;
+    left: 185px;
+    z-index: 15;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+#blackbacksourcesmall{
+    /* filter: invert(1) contrast(100%); make white */
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    top: 50px;
+    left: 155px;
+    z-index: 1;
+}
+#sourcesP1{
+    position: absolute;
+    height: 0px;
+    width: 560px;
+    top: 90px;
+    left: 350px;
+    z-index: 15;
+    color:rgb(255, 255, 255);
+    font-size: 20;
+}
+#blackbacksource1{
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    top: 420px;
+    left: 90px;
+    z-index: 10;
+}
+#blackbacksource2 {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    top: 180px;
+    left: 90px;
+    z-index: 10;
+}
+#blackbacksource3 {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    top: 260px;
+    left: 90px;
+    z-index: 10;
+}
+#blackbacksource4 {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    top: 340px;
+    left: 90px;
+    z-index: 10;
+}
+#blackbacksource5 {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    top: 420px;
+    left: 350px;
+    z-index: 10;
+}
+#blackbacksource6 {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    top: 180px;
+    left: 350px;
+    z-index: 10;
+}
+#blackbacksource7 {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    top: 260px;
+    left: 350px;
+    z-index: 10;
+}
+#blackbacksource8 {
+    position: absolute;
+    height: 150px;
+    width: 170px;
+    top: 340px;
+    left: 350px;
+    z-index: 10;
+}
+#sourcep1 {
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: 420px;
+    left: 110px;
+    z-index: 11;
+    color:white
+}
+#sourcep2 {
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: 180px;
+    left: 110px;
+    z-index: 11;
+    color:white
+}
+#sourcep3 {
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: 260px;
+    left: 110px;
+    z-index: 11;
+    color:white
+}
+#sourcep4 {
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: 340px;
+    left: 110px;
+    z-index: 11;
+    color:white;
+}
+#sourcep5 {
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: 420px;
+    left: 365px;
+    z-index: 11;
+    color:white
+}
+#sourcep6 {
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: 180px;
+    left: 365px;
+    z-index: 11;
+    color:white;
+}
+#sourcep7 {
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: 260px;
+    left: 365px;
+    z-index: 11;
+    color:white
+}
+#sourcep8 {
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: 340px;
+    left: 365px;
+    z-index: 11;
+    color:white
+}
+.tint-overlay{
+    position: absolute;
+    height: 560px;
+    width: 560px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.274); /* Adjust color and opacity */
+    pointer-events: none;
+}
+
+.source{
+    letter-spacing: 0.5px;
+}
+.source:hover{
+    text-decoration: underline;
+}

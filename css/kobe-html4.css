@@ -1,0 +1,14 @@
+
+
+.sj-book .even{
+	background-image:url(../pics/gradient-page-left.png);
+	background-position:right top;
+	background-repeat:repeat-y;
+}
+
+.sj-book .odd{
+	background-image:url(../pics/gradient-page-right.png);
+	background-position:left top;
+	background-repeat:repeat-y;
+}
+

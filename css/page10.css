@@ -1,0 +1,139 @@
+#ihcover {
+    position: absolute;
+    height: 450px;
+    width: 360px;
+    top: -350px;
+    left: 10px;
+    z-index: 1;
+}
+
+#impactH{
+    position: absolute;
+    height: 10px;
+    width: 1060px;
+    top: 15px;
+    left: 25px;
+    z-index: 2;
+    color: #FFD700;
+}
+
+
+
+#iwing {
+    position: absolute;
+    height: 100px;
+    width: 140px;
+    top: 50px;
+    left: 140px;
+    z-index: 3;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+#iportrait {
+    position: absolute;
+    height: 120px;
+    width: 200px;
+    top: 100px;
+    left: 30px;
+    z-index: 1;
+}
+
+#iafters {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 150px;
+    right: 35px;
+    z-index: 0;
+}
+
+#ichina {
+    position: absolute;
+    height: 120px;
+    width: 200px;
+    bottom: 205px;
+    left: 40px;
+    z-index: 0;
+}
+
+#ifamily {
+    position: absolute;
+    height: 160px;
+    width: 200px;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+#iselfie {
+    position: absolute;
+    height: 120px;
+    width: 110px;
+    top: 12px;
+    right: 40px;
+    z-index: 0;
+}
+
+#ithankyou {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    bottom: 140px;
+    left: 20px;
+    z-index: 1;
+}
+
+#imambaout {
+    position: absolute;
+    height: 155px;
+    width: 130px;
+    top: 90px;
+    right: 200px;
+    z-index: 0;
+}
+
+
+
+
+
+#highTall5{
+    position: absolute;
+    height: 300px;
+    width: 315px;
+    bottom: 15px;
+    right: 37px;
+    z-index: 3;
+    color:white;
+}
+#impactP2{
+    position: absolute;
+    height: 260px;
+    width: 270px;
+    bottom: 25px;
+    right: 57px;
+    z-index: 4;
+    color:rgb(3, 3, 3);
+}
+#iwidishback {
+    position: absolute;
+    height: 470px;
+    width: 330px;
+    bottom: -145px;
+    right: 28px;
+    z-index: 3;
+
+}
+
+#impactP1{
+    position: absolute;
+    height: 10px;
+    width: 1060px;
+    bottom: 20px;
+    left: 200px;
+    z-index: 3;
+    color: white;
+    font-size: 20px;
+}

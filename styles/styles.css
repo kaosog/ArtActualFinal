@@ -1,0 +1,21 @@
+ .page {
+    /* background-color: #B9AE8F; */
+    width:600px;
+    height:582px;
+  }
+  /*
+#page1{
+    background-color: #B9AE8F;
+} */
+.innerbox{
+  height:100%;
+  width:100%;
+  border: 2px red solid;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.top{
+  margin-top:0px
+}

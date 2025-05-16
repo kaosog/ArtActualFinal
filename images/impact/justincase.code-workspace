@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "ART477FINAL",
+			"path": "../.."
+		},
+		{
+			"name": "extras",
+			"path": "../../../../../Downloads/Turn.js-4th-release-master (1)/Turn.js-4th-release-master/extras"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ART477FINAL"
+	}
+}

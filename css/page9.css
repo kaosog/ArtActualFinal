@@ -1,0 +1,88 @@
+
+
+#wideback {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 10px;
+    left: 30px;
+    z-index: 1;
+}
+
+#usa {
+    position: absolute;
+    height: 120px;
+    width: 170px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 0;
+}
+
+#obama {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+}
+
+#west {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    bottom: 10px;
+    right: 165px;
+    z-index: 0;
+}
+#highTall3{
+    position: absolute;
+    height: 360px;
+    width: 235px;
+    bottom: 10px;
+    left: 35px;
+    z-index: 1;
+}
+#highTall4{
+    position: absolute;
+    height: 410px;
+    width: 220px;
+    top: 10px;
+    right: 15px;
+    z-index: 10;
+}
+
+
+
+#caback3longa {
+    position: absolute;
+    height: 370px;
+    width: 245px;
+    bottom: 5px;
+    left: 30px;
+    z-index: 1;
+}
+#careerP2{
+    position: absolute;
+    height: 320px;
+    width: 195px;
+    bottom: 15px;
+    left: 55px;
+    z-index: 10;
+}
+#caback1long {
+    position: absolute;
+    height: 420px;
+    width: 230px;
+    top: 4px;
+    right: 10px;
+    z-index: 10;
+}
+#careerP5{
+    position: absolute;
+    height: 400px;
+    width: 190px;
+    top: 15px;
+    right: 27px;
+    z-index: 11;
+}

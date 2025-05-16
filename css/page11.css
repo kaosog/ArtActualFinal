@@ -1,0 +1,170 @@
+#ilong {
+    position: absolute;
+    height: 458px;
+    width: 295px;
+    top: 2px;
+    right: 10px;
+    z-index: 7;
+}
+
+#icoach {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 280px;
+    right: 285px;
+    z-index: 13;
+}
+
+#iblackteam {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: 140px;
+    left: 160px;
+    z-index: 10;
+}
+
+/* #ilongih {
+    position: absolute;
+    height: 260px;
+    width: 280px;
+    bottom: 30px;
+    left: 40px;
+    z-index: 2;
+} */
+#impactP3{
+    position: absolute;
+    height: 190px;
+    width: 240px;
+    bottom: 60px;
+    left: 65px;
+    z-index: 3;
+    color:rgb(3, 3, 3)
+}
+#impactP4{
+    position: absolute;
+    height: 300px;
+    width: 240px;
+    top: 20px;
+    right: 35px;
+    z-index: 8;
+    color: rgb(0, 0, 0);
+}
+#ifoundation {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 250px;
+    left: 40px;
+    z-index: 1;
+}
+
+#idribble {
+    position: absolute;
+    height: 100px;
+    width: 210px;
+    bottom: 10px;
+    right: 30px;
+    z-index: 1;
+}
+
+#ifist {
+    position: absolute;
+    height: 130px;
+    width: 230px;
+    top: 10px;
+    left: 40px;
+    z-index: 1;
+}
+
+#itutor {
+    position: absolute;
+    height: 100px;
+    width: 180px;
+    bottom: 30px;
+    left: 30px;
+    z-index: 0;
+}
+
+#ibook {
+    position: absolute;
+    height: 120px;
+    width: 100px;
+    bottom: 70px;
+    left: 180px;
+    z-index: 1;
+}
+
+#highTall6{
+    position: absolute;
+    height: 440px;
+    width: 275px;
+    top: 10px;
+    right: 20px;
+    z-index: 7;
+    color: white;
+}
+/* 
+#careerWide2{
+    position: absolute;
+    height: 240px;
+    width: 260px;
+    bottom: 40px;
+    left: 50px;
+    z-index: 2;
+    color:white
+} */
+
+#dribblegif {
+    position: absolute;
+    height: 100px;
+    top: 150px;
+    left: 30px;
+    animation: 
+        fadeIn 0.5s ease-in 1s forwards,
+        moveDownRight 10s ease-in-out 1s infinite;
+    opacity: 0;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    z-index: 0;
+}
+
+#kobecoachgif {
+    position: absolute;
+    height: 60px;
+    top: 150px;
+    left: 30px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 1s forwards;
+    z-index: 1;
+}
+
+@keyframes moveDownRight {
+    0% {
+        top: 150px;
+        left: 30px;
+    }
+    33% {
+        top: 150px;
+        left: 200px;
+    }
+    66% {
+        top: 300px;
+        left: 200px;
+        transform: scaleX(-1);
+    }
+    100% {
+        top: 150px;
+        left: 30px;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
