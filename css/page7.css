@@ -70,16 +70,16 @@
     height:70px;
     width:150px;
     bottom:160px;
-    left:50px;
+    left:70px;
     z-index:2;
 }
 
 #hprom {
     position: absolute;
-    height:70px;
-    width:100px;
-    top:370px;
-    left:225px;
+    height:100px;
+    width:120px;
+    top:290px;
+    left:265px;
     z-index:1;
 }
 
@@ -150,7 +150,7 @@
 
 #achiev3{
     position: absolute;
-    bottom:30px;
+    bottom:70px;
     left:205px;
     height:120px;
     width:140px;
