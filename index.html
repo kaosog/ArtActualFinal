@@ -11,16 +11,16 @@
 <script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="extras/hash.js"></script>
 <link rel="stylesheet" href="styles/main.css">
-<link rel="stylesheet" href="/css/page3.css">
-<link rel="stylesheet" href="/css/page4.css">
-<link rel="stylesheet" href="/css/page5.css">
-<link rel="stylesheet" href="/css/page6.css">
-<link rel="stylesheet" href="/css/page7.css">
-<link rel="stylesheet" href="/css/page8.css">
-<link rel="stylesheet" href="/css/page9.css">
-<link rel="stylesheet" href="/css/page10.css">
-<link rel="stylesheet" href="/css/page11.css">
-<link rel="stylesheet" href="/css/page12.css">
+<link rel="stylesheet" href="css/page3.css">
+<link rel="stylesheet" href="css/page4.css">
+<link rel="stylesheet" href="css/page5.css">
+<link rel="stylesheet" href="css/page6.css">
+<link rel="stylesheet" href="css/page7.css">
+<link rel="stylesheet" href="css/page8.css">
+<link rel="stylesheet" href="css/page9.css">
+<link rel="stylesheet" href="css/page10.css">
+<link rel="stylesheet" href="css/page11.css">
+<link rel="stylesheet" href="css/page12.css">
 
 </head>
 <body>
@@ -44,18 +44,18 @@
 
 <div id="fade-overlay">
     <div id="loading-screen">
-        <img src="/images/loading/lefttop.png" class="piece" id="lefttop">
-        <img src="/images/loading/righttop.png" class="piece" id="righttop">
-        <img src="/images/loading/leftbottom.png" class="piece" id="leftbottom">
-        <img src="/images/loading/rightbottom.png" class="piece" id="rightbottom">
-        <img src="/images/loading/bottomleft.png" class="piece" id="bottomleft">
-        <img src="/images/loading/bottomright.png" class="piece" id="bottomright">
+        <img src="images/loading/lefttop.png" class="piece" id="lefttop">
+        <img src="images/loading/righttop.png" class="piece" id="righttop">
+        <img src="images/loading/leftbottom.png" class="piece" id="leftbottom">
+        <img src="images/loading/rightbottom.png" class="piece" id="rightbottom">
+        <img src="images/loading/bottomleft.png" class="piece" id="bottomleft">
+        <img src="images/loading/bottomright.png" class="piece" id="bottomright">
     </div>
 </div>
 <script src="https://code.createjs.com/easeljs-0.7.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-<script src="/js/loading.js"></script>
-<script src="/js/test.js"></script>
+<script src="js/loading.js"></script>
+<script src="js/test.js"></script>
 <script type="text/javascript">
 
 function loadApp() {
@@ -306,8 +306,8 @@ $('#canvas').css({visibility: 'hidden'});
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../turnPage/turn.min.js'],
-	nope: ['../turnPage/turn.html4.min.js', 'css/jquery.ui.html4.css', 'css/kobe-html4.css'],
+	yep: ['turnPage/turn.min.js'],
+	nope: ['turnPage/turn.html4.min.js', 'css/jquery.ui.html4.css', 'css/kobe-html4.css'],
 	both: ['js/kobe.js', 'css/jquery.ui.css', 'css/kobe.css'],
 	complete: loadApp
 });

@@ -1,6 +1,6 @@
 for (let i = 1; i <= 10; i++) {
     $('#book').append(`<div class="page" id="page${i}"></div>`);
-    $(`#page${i}`).load(`Pages/page${i}.html`);
+    $(`#page${i}`).load(`pages/page${i}.html`);
   }
   
   $(document).ready(function () {
